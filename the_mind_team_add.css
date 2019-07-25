@@ -1,0 +1,121 @@
+body{
+  background-color : #565e70;
+}
+.title{
+	width            : 100%;
+	text-align       : center;
+}
+.title h1{
+	position         : relative;
+	display          : inline-block;
+}
+.title h1:before, .title h1:after{
+	content          : "";
+	display          : block;
+	width            : 200px;
+	height           : 4px;
+	border-top       : 1px solid #111;
+	border-bottom    : 1px solid #111;
+	position         : absolute;
+	top              : 50%;
+	margin-top       : -2px;
+}
+.title h1:before{left:-224px;}
+.title h1:after{right:-224px;}
+h3{
+  width            : 100%;
+  text-align       : center;
+  color            : #fe0404;
+}
+h4{
+  width            : 100%;
+  text-align       : center;
+}
+.text_box{
+  width            : 100%;
+  text-align       : center;
+}
+.text_box input[type="text"]{
+  border           : 0;
+  padding          : 10px;
+  font-size        : 1.3em;
+  font-family      : Arial, sans-serif;
+  color            : #000000;
+  border           : solid 1px #ccc;
+  margin           : 0 0 20px;
+  width            : 300px;
+}
+.text_box input[type="submit"]{
+  display          : inline-block;
+  border-radius    : 5%;          /* 角丸       */
+  font-size        : 15pt;        /* 文字サイズ */
+  text-align       : center;      /* 文字位置   */
+  cursor           : pointer;     /* カーソル   */
+  padding          : 12px 12px;   /* 余白       */
+  background       : #000000;     /* 背景色     */
+  color            : #ffffff;     /* 文字色     */
+  line-height      : 1em;         /* 1行の高さ  */
+  transition       : .3s;         /* なめらか変化 */
+	margin           : 0 0 20px;
+  box-shadow       : 6px 6px 3px #666666;  /* 影の設定 */
+  border           : 2px solid #000000;    /* 枠の指定 */
+}
+.text_box input[type="submit"]:hover{
+  box-shadow       : none;        /* カーソル時の影消去 */
+  color            : #000000;     /* 背景色     */
+  background       : #ffffff;     /* 文字色     */
+}
+.explain{
+  width            : 100%;
+  text-align       : center;
+}
+.explain input[type="text"]{
+  border           : 0;
+  padding          : 10px;
+  font-size        : 1.3em;
+  font-family      : Arial, sans-serif;
+  color            : #000000;
+  border           : solid 1px #ccc;
+  margin           : 0 0 20px;
+  width            : 300px;
+}
+.explain input[type="submit"]{
+  display          : inline-block;
+  border-radius    : 5%;          /* 角丸       */
+  font-size        : 15pt;        /* 文字サイズ */
+  text-align       : center;      /* 文字位置   */
+  cursor           : pointer;     /* カーソル   */
+  padding          : 12px 12px;   /* 余白       */
+  background       : #000000;     /* 背景色     */
+  color            : #ffffff;     /* 文字色     */
+  line-height      : 1em;         /* 1行の高さ  */
+  transition       : .3s;         /* なめらか変化 */
+	margin           : 0 0 20px;
+  box-shadow       : 6px 6px 3px #666666;  /* 影の設定 */
+  border           : 2px solid #000000;    /* 枠の指定 */
+}
+.explain input[type="submit"]:hover{
+  box-shadow       : none;        /* カーソル時の影消去 */
+  color            : #000000;     /* 背景色     */
+  background       : #ffffff;     /* 文字色     */
+}
+a{
+  display          : inline-block;
+  border-radius    : 5%;          /* 角丸       */
+  font-size        : 15pt;        /* 文字サイズ */
+  text-align       : center;      /* 文字位置   */
+  cursor           : pointer;     /* カーソル   */
+  padding          : 12px 12px;   /* 余白       */
+  background       : #000000;     /* 背景色     */
+  color            : #ffffff;     /* 文字色     */
+  line-height      : 1em;         /* 1行の高さ  */
+  transition       : .3s;         /* なめらか変化 */
+	margin           : 0 0 20px;
+  box-shadow       : 6px 6px 3px #666666;  /* 影の設定 */
+  border           : 2px solid #000000;    /* 枠の指定 */
+}
+a:hover{
+  box-shadow       : none;        /* カーソル時の影消去 */
+  color            : #000000;     /* 背景色     */
+  background       : #ffffff;     /* 文字色     */
+}

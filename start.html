@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="the_mind_start.css" rel="stylesheet" type="text/css" media="all">
+    <title>The Mind</title>
+  </head>
+  <body>
+    <div class="title">
+      <h1>The Mind</h1>
+    </div>
+    <div class="explain">
+      <h3>ルール</h3>
+      <ul>
+        <li>プレイヤーの数は2～10人まで。</li>
+        <li>プレイヤーには1人あたり2枚のカードが配られる。</li>
+        <li>カードには1～100までの数字が書かれている。</li>
+        <li>プレイヤーは1人1枚ずつカードを出していく。</li>
+        <li>プレイヤーが持っているカードを小さい順に並べられた場合は、勝ちとなる。</li>
+        <li>プレイヤーが持っているカードを小さい順に並べられなかった場合は、負けとなる。</li>
+        <li>チーム内のプレイヤー同士で相談することは許されない。</li>
+      </ul>
+    </div>
+    <div class="ip_form">
+      <p>チームを登録する場合は参加するプレイヤーの人数を選んでください</p>
+      <select name="hmp" size="1" form="hmp">
+        <option value="2">2人</option>
+        <option value="3">3人</option>
+        <option value="4">4人</option>
+        <option value="5">5人</option>
+        <option value="6">6人</option>
+        <option value="7">7人</option>
+        <option value="8">8人</option>
+        <option value="9">9人</option>
+        <option value="10">10人</option>
+      </select>
+      <form action="team_branch.php" method="post" id="hmp">
+        <input type="submit" name="add" value="チームを登録する"><br />
+        <input type="submit" name="list" value="既に登録したチームで挑戦する">
+      </form>
+    </div>
+  </body>
+</html>
