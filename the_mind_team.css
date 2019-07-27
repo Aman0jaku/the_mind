@@ -115,12 +115,12 @@ a:hover{
 	display            : none;
 }
 .team_radio .option-input:checked + label {
-	color              : #000000;
+	color              : #ffffff;
 }
 .team_radio .option-input:checked + label::before {
 	margin-right       : 2em;
-	border             : 0.4em solid #000000;
-	background         : #000000;
+	border             : 0.4em solid #ffffff;
+	background         : #ffffff;
 }
 .team_radio label {
 	display            : -webkit-box;
