@@ -11,11 +11,11 @@
     <title>The Mind</title>
   </head>
   <body>
+    <div class="title">
+      <h1>The Mind</h1>
+    </div>
     <?php
       try{
-        print'<div class="title">';
-          print'<h1>The Mind</h1>';
-        print'</div>';
         $dsn = 'mysql:dbname=the_mind;host=localhost;charset=utf8';
         $user = 'root';
         $password = 'usbw';
@@ -43,9 +43,14 @@
 
       }
       catch(Exception $e){
-        print"ただいま障害により大変ご迷惑をおかけしております。";
+        print"メンバー登録の際に問題が発生しました。";
         exit();
       }
     ?>
+    <div class="text_box">
+      <form action="team_list.php" method="post">
+        <input type="submit" value="チーム一覧へ進む">
+      </form>
+    </div>
   </body>
 </html>
